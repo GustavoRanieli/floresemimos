@@ -7,6 +7,8 @@ import './index.css';
 import Nav from './components/Nav';
 import Intro from './components/Intro';
 import Produtos from './components/Produtos';
+import Linha from './components/Linha';
+import CaroselImg from './components/CaroselImg';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -16,6 +18,8 @@ root.render(
     <Nav />
     <Intro />
     <Produtos />
+    <Linha />
+    <CaroselImg />
   </React.StrictMode>
 );
 
