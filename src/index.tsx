@@ -9,6 +9,7 @@ import Intro from './components/Intro';
 import Produtos from './components/Produtos';
 import Linha from './components/Linha';
 import CaroselImg from './components/CaroselImg';
+import Footer from './components/Footer';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -20,6 +21,7 @@ root.render(
     <Produtos />
     <Linha />
     <CaroselImg />
+    <Footer />
   </React.StrictMode>
 );
 
