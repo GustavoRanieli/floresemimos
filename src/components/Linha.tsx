@@ -23,8 +23,8 @@ const Linha = () => {
                 </div>
 
                 <div className='mt-10'>
-                    <h1 className=' text-2xl text-white font-bold'></h1>
-                    <p className='text-white font-medium mt-2'></p>
+                    <h1 className=' text-2xl text-white font-bold'>-2h</h1>
+                    <p className='text-white font-medium mt-2'>Seu  presente  vai ser entregue para<br></br> a peessoa amada.</p>
                 </div>
             </div>
         }
@@ -44,8 +44,8 @@ const Linha = () => {
                 </div>
 
                 <div>
-                    <h1 className=' text-3xl text-white font-bold'></h1>
-                    <p className='text-white font-medium mt-2'></p>
+                <h1 className=' text-2xl text-white font-bold'>-2h</h1>
+                    <p className='text-white font-medium mt-2'>Seu  presente  vai ser entregue para<br></br> a peessoa amada.</p>
                 </div>
             </div>
         }
@@ -64,8 +64,8 @@ const Linha = () => {
                 </div>
 
                 <div>
-                    <h1 className=' text-4xl text-white font-bold'></h1>
-                    <p className='text-white font-medium mt-2'></p>
+                <h1 className=' text-4xl text-white font-bold'>-2h</h1>
+                    <p className='text-white font-medium mt-2'>Seu  presente  vai ser entregue para<br></br> a peessoa amada.</p>
                 </div>
             </div>
         }

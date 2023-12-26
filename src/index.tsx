@@ -10,6 +10,7 @@ import Produtos from './components/Produtos';
 import Linha from './components/Linha';
 import CaroselImg from './components/CaroselImg';
 import Footer from './components/Footer';
+import Teste from './components/Teste';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -18,6 +19,7 @@ root.render(
   <React.StrictMode>
     <Nav />
     <Intro />
+    <Teste />
     <Produtos />
     <Linha />
     <CaroselImg />

@@ -5,7 +5,7 @@ import balao from '../assents/balao.jpeg';
 import flor from '../assents/flor.jpeg';
 import brinquedo from '../assents/brinquedo.jpeg';
 import roupa from '../assents/roupa.jpeg';
-import Fundo from '../assents/5226644.jpg';
+import wave from '../assents/wave.svg'
 import { useMediaQuery } from 'react-responsive';
 
 
@@ -20,7 +20,8 @@ const Produtos = () => {
 
   return (
 
-    <div className="mt-10 bg-fundo bg-cover">
+    <div>
+        <div className='bg-fundo bg-cover pt-10'>
         {/* Mobile */}
         {isMobile && 
             <div>
@@ -36,28 +37,28 @@ const Produtos = () => {
                         <img className='rounded-full h-56 mx-auto my-5' src={flor} alt="" />
                         <h1 className=' font-bold text-lg my-1 text-lime-600'>Flores</h1>
                         <p>Presenteie seus amigos e familiares com nossas flores, mergulhando-os em cores vivas e belas, criando memórias perfumadas que durarão para sempre.</p>
-                        <a href=""><button className='mt-10 bg-lime-500 p-2 rounded-lg text-white font-bold text-base w-40'>Saiba mais</button></a>
+                        <a href="https://wa.me/5511968629919?text=Ol%C3%A1,%20vim%20pelo%20Google%20e%20quero%20saber%20mais%20sobre%20suas%20flores."><button className='mt-10 bg-lime-500 p-2 rounded-lg text-white font-bold text-base w-40'>Saiba mais</button></a>
                     </div>
 
                     <div className=' border-2 shadow-md shadow-lime-600 w-5/6 px-10 py-3 rounded-lg mx-auto bg-white my-5'>
                         <img className='rounded-full h-56 mx-auto my-5' src={brinquedo} alt="" />
                         <h1 className=' font-bold text-lg my-1 text-lime-600'>Brinquedos</h1>
                         <p>Explore um mundo de descobertas e alegria para os pequenos! Nossos brinquedos para bebês são projetados para estimular o aprendizado e a diversão, tornando cada momento especial.</p>
-                        <a href=""><button className='mt-10 bg-lime-500 p-2 rounded-lg text-white font-bold text-base w-40'>Saiba mais</button></a>
+                        <a href="https://wa.me/5511968629919?text=Ol%C3%A1,%20vim%20pelo%20Google%20e%20quero%20saber%20mais%20sobre%20seus%20brinquedos."><button className='mt-10 bg-lime-500 p-2 rounded-lg text-white font-bold text-base w-40'>Saiba mais</button></a>
                     </div>
 
                     <div className=' border-2 shadow-md shadow-lime-600 w-5/6 px-10 py-3 rounded-lg mx-auto bg-white my-5'>
                         <img className='rounded-full mx-auto my-5 h-56' src={balao} alt="" />
                         <h1 className=' font-bold text-lg my-1 text-lime-600'>Balões Personalizados</h1>
                         <p>Dê asas à sua celebração com balões personalizados que tornam cada ocasião única e inesquecível. Crie memórias coloridas e alegres com nossas criações exclusivas.</p>
-                        <a href=""><button className='mt-16 bg-lime-500 p-2 rounded-lg text-white font-bold text-base w-40'>Saiba mais</button></a>
+                        <a href="https://wa.me/5511968629919?text=Ol%C3%A1,%20vim%20pelo%20Google%20e%20quero%20saber%20mais%20sobre%20seus%20bal%C3%B5es."><button className='mt-16 bg-lime-500 p-2 rounded-lg text-white font-bold text-base w-40'>Saiba mais</button></a>
                     </div>
 
                     <div className=' border-2 shadow-md shadow-lime-600 w-5/6 px-10 py-3 rounded-lg mx-auto bg-white my-5'>
                         <img className='rounded-full h-56 mx-auto my-5 ' src={roupa} alt="" />
                         <h1 className=' font-bold text-lg my-1 text-lime-600'>Roupas infantis</h1>
                         <p>Vista seus pequeninos com estilo e conforto! Descubra nossa coleção de roupas infantis, onde a moda encontra a diversão. Deixe-os brilhar com peças encantadoras e cheias de personalidade.</p>
-                        <a href=""><button className='mt-10 bg-lime-500 p-2 rounded-lg text-white font-bold text-base w-40 '>Saiba mais</button></a>
+                        <a href="https://wa.me/5511968629919?text=Ol%C3%A1,%20vim%20pelo%20Google%20e%20quero%20saber%20mais%20sobre%20suas%20roupinhas."><button className='mt-10 bg-lime-500 p-2 rounded-lg text-white font-bold text-base w-40 '>Saiba mais</button></a>
                     </div>
 
                 </div>
@@ -77,7 +78,7 @@ const Produtos = () => {
                             <li className=' align-text-top'>Melhores produtos</li>
                             <li className=' align-text-top'>Entrega rápida</li>
                         </ul>
-                        <a href=""><button className='mt-5 bg-lime-500 p-2 font-bold text-white rounded-lg'>Quero saber mais!</button></a>
+                        <a href="https://wa.me/5511968629919?text=Ol%C3%A1,%20vim%20pelo%20Google%20e%20quero%20saber%20mais%20sobre%20seus%20servi%C3%A7os!"><button className='mt-5 bg-lime-500 p-2 font-bold text-white rounded-lg'>Quero saber mais!</button></a>
 
                     </div>
 
@@ -104,28 +105,28 @@ const Produtos = () => {
                         <img className='rounded-full h-56 mx-auto my-5' src={flor} alt="" />
                         <h1 className=' font-bold text-lg my-1 text-lime-600'>Flores</h1>
                         <p>Presenteie seus amigos e familiares com nossas flores, mergulhando-os em cores vivas e belas, criando memórias perfumadas que durarão para sempre.</p>
-                        <a href=""><button className='mt-20 bg-lime-500 p-2 rounded-lg text-white font-bold text-base w-40'>Saiba mais</button></a>
+                        <a href="https://wa.me/5511968629919?text=Ol%C3%A1,%20vim%20pelo%20Google%20e%20quero%20saber%20mais%20sobre%20suas%20flores."><button className='mt-20 bg-lime-500 p-2 rounded-lg text-white font-bold text-base w-40'>Saiba mais</button></a>
                     </div>
 
                     <div className=' border-2 shadow-md shadow-lime-600 px-10 py-3 rounded-lg bg-white'>
                         <img className='rounded-full h-56 mx-auto my-5' src={brinquedo} alt="" />
                         <h1 className=' font-bold text-lg my-1 text-lime-600'>Brinquedos</h1>
                         <p>Explore um mundo de descobertas e alegria para os pequenos! Nossos brinquedos para bebês são projetados para estimular o aprendizado e a diversão, tornando cada momento especial.</p>
-                        <a href=""><button className='mt-10 bg-lime-500 p-2 rounded-lg text-white font-bold text-base w-40'>Saiba mais</button></a>
+                        <a href="https://wa.me/5511968629919?text=Ol%C3%A1,%20vim%20pelo%20Google%20e%20quero%20saber%20mais%20sobre%20seus%20brinquedos."><button className='mt-10 bg-lime-500 p-2 rounded-lg text-white font-bold text-base w-40'>Saiba mais</button></a>
                     </div>
 
                     <div className=' border-2 shadow-md shadow-lime-600 px-10 py-3 rounded-lg bg-white'>
                         <img className='rounded-full mx-auto my-5 h-56' src={balao} alt="" />
                         <h1 className=' font-bold text-lg my-1 text-lime-600'>Balões Personalizados</h1>
                         <p>Dê asas à sua celebração com balões personalizados que tornam cada ocasião única e inesquecível. Crie memórias coloridas e alegres com nossas criações exclusivas.</p>
-                        <a href=""><button className='mt-16 bg-lime-500 p-2 rounded-lg text-white font-bold text-base w-40'>Saiba mais</button></a>
+                        <a href="https://wa.me/5511968629919?text=Ol%C3%A1,%20vim%20pelo%20Google%20e%20quero%20saber%20mais%20sobre%20seus%20bal%C3%B5es."><button className='mt-16 bg-lime-500 p-2 rounded-lg text-white font-bold text-base w-40'>Saiba mais</button></a>
                     </div>
 
                     <div className=' border-2 shadow-md shadow-lime-600 px-10 py-3 rounded-lg bg-white'>
                         <img className='rounded-full h-56 mx-auto my-5 ' src={roupa} alt="" />
                         <h1 className=' font-bold text-lg my-1 text-lime-600'>Roupas infantis</h1>
                         <p>Vista seus pequeninos com estilo e conforto! Descubra nossa coleção de roupas infantis, onde a moda encontra a diversão. Deixe-os brilhar com peças encantadoras e cheias de personalidade.</p>
-                        <a href=""><button className='mt-10 bg-lime-500 p-2 rounded-lg text-white font-bold text-base w-40 '>Saiba mais</button></a>
+                        <a href="https://wa.me/5511968629919?text=Ol%C3%A1,%20vim%20pelo%20Google%20e%20quero%20saber%20mais%20sobre%20suas%20roupinhas."><button className='mt-10 bg-lime-500 p-2 rounded-lg text-white font-bold text-base w-40 '>Saiba mais</button></a>
                     </div>
 
                 </div>
@@ -145,7 +146,7 @@ const Produtos = () => {
                             <li className=' align-text-top'>Melhores produtos</li>
                             <li className=' align-text-top'>Entrega rápida</li>
                         </ul>
-                        <a href=""><button className='mt-5 bg-lime-500 p-2 font-bold text-white rounded-lg'>Quero saber mais!</button></a>
+                        <a href="https://wa.me/5511968629919?text=Ol%C3%A1,%20vim%20pelo%20Google%20e%20quero%20saber%20mais%20sobre%20seus%20servi%C3%A7os!"><button className='mt-5 bg-lime-500 p-2 font-bold text-white rounded-lg'>Quero saber mais!</button></a>
 
                     </div>
 
@@ -160,6 +161,7 @@ const Produtos = () => {
         {/* Desktop */}
         {isDesktop && 
             <div>
+
                 <div className='justify-center text-center my-font'>
                     <h1 className='font-bold text-2xl'>Tudo o que você precisa em um só lugar</h1>
                     <img className=' w-52 text-center mx-auto' src={linha} alt="" />
@@ -172,28 +174,28 @@ const Produtos = () => {
                         <img className='rounded-full h-56 mx-auto my-5' src={flor} alt="" />
                         <h1 className=' font-bold text-lg my-1 text-lime-600'>Flores</h1>
                         <p>Presenteie seus amigos e familiares com nossas flores, mergulhando-os em cores vivas e belas, criando memórias perfumadas que durarão para sempre.</p>
-                        <a href=""><button className='mt-20 bg-lime-500 p-2 rounded-lg text-white font-bold text-base w-40'>Saiba mais</button></a>
+                        <a href="https://wa.me/5511968629919?text=Ol%C3%A1,%20vim%20pelo%20Google%20e%20quero%20saber%20mais%20sobre%20suas%20flores."><button className='mt-20 bg-lime-500 p-2 rounded-lg text-white font-bold text-base w-40'>Saiba mais</button></a>
                     </div>
 
                     <div className=' border-2 shadow-md shadow-lime-600 px-10 py-3 rounded-lg bg-white'>
                         <img className='rounded-full h-56 mx-auto my-5' src={brinquedo} alt="" />
                         <h1 className=' font-bold text-lg my-1 text-lime-600'>Brinquedos</h1>
                         <p>Explore um mundo de descobertas e alegria para os pequenos! Nossos brinquedos para bebês são projetados para estimular o aprendizado e a diversão, tornando cada momento especial.</p>
-                        <a href=""><button className='mt-10 bg-lime-500 p-2 rounded-lg text-white font-bold text-base w-40'>Saiba mais</button></a>
+                        <a href="https://wa.me/5511968629919?text=Ol%C3%A1,%20vim%20pelo%20Google%20e%20quero%20saber%20mais%20sobre%20seus%20brinquedos."><button className='mt-10 bg-lime-500 p-2 rounded-lg text-white font-bold text-base w-40'>Saiba mais</button></a>
                     </div>
 
                     <div className=' border-2 shadow-md shadow-lime-600 px-10 py-3 rounded-lg bg-white'>
                         <img className='rounded-full mx-auto my-5 h-56' src={balao} alt="" />
                         <h1 className=' font-bold text-lg my-1 text-lime-600'>Balões Personalizados</h1>
                         <p>Dê asas à sua celebração com balões personalizados que tornam cada ocasião única e inesquecível. Crie memórias coloridas e alegres com nossas criações exclusivas.</p>
-                        <a href=""><button className='mt-16 bg-lime-500 p-2 rounded-lg text-white font-bold text-base w-40'>Saiba mais</button></a>
+                        <a href="https://wa.me/5511968629919?text=Ol%C3%A1,%20vim%20pelo%20Google%20e%20quero%20saber%20mais%20sobre%20seus%20bal%C3%B5es."><button className='mt-16 bg-lime-500 p-2 rounded-lg text-white font-bold text-base w-40'>Saiba mais</button></a>
                     </div>
 
                     <div className=' border-2 shadow-md shadow-lime-600 px-10 py-3 rounded-lg bg-white'>
                         <img className='rounded-full h-56 mx-auto my-5 ' src={roupa} alt="" />
                         <h1 className=' font-bold text-lg my-1 text-lime-600'>Roupas infantis</h1>
                         <p>Vista seus pequeninos com estilo e conforto! Descubra nossa coleção de roupas infantis, onde a moda encontra a diversão. Deixe-os brilhar com peças encantadoras e cheias de personalidade.</p>
-                        <a href=""><button className='mt-10 bg-lime-500 p-2 rounded-lg text-white font-bold text-base w-40 '>Saiba mais</button></a>
+                        <a href="https://wa.me/5511968629919?text=Ol%C3%A1,%20vim%20pelo%20Google%20e%20quero%20saber%20mais%20sobre%20suas%20roupinhas."><button className='mt-10 bg-lime-500 p-2 rounded-lg text-white font-bold text-base w-40 '>Saiba mais</button></a>
                     </div>
 
                 </div>
@@ -213,7 +215,7 @@ const Produtos = () => {
                             <li className=' align-text-top'>Melhores produtos</li>
                             <li className=' align-text-top'>Entrega rápida</li>
                         </ul>
-                        <a href=""><button className='mt-5 bg-lime-500 p-2 font-bold text-white rounded-lg'>Quero saber mais!</button></a>
+                        <a href="https://wa.me/5511968629919?text=Ol%C3%A1,%20vim%20pelo%20Google%20e%20quero%20saber%20mais%20sobre%20seus%20servi%C3%A7os!"><button className='mt-5 bg-lime-500 p-2 font-bold text-white rounded-lg'>Quero saber mais!</button></a>
 
                     </div>
 
@@ -223,6 +225,7 @@ const Produtos = () => {
                 </div>
             </div>
         }
+        </div>
     </div>
   )
 }

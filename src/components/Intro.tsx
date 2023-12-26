@@ -14,12 +14,12 @@ const isDesktop = useMediaQuery({ minWidth: 1500 });
     <div>
       {/* Modo Mobile */}
       {isMobile &&
-        <div className='bg-fundo bg-contain'>
+        <div className='bg-intro bg-cover'>
         
           <div className='py-20 z-10 col-span-1 text-center'>
               <h1 className='text-2xl font-bold my-font'>Em cada flor, um pedacinho de amor. Surpreenda quem você ama com nossas opções.</h1>
               <p className='text-lg my-5 font-normal my-font'>Nas proximidades da Maternidade Santa Joana e Santa Maria. Diversos produtos para atender todas suas necessidades!.</p>
-              <a href=""><button className=' shadow-lg my-2 bg-lime-500 p-3 rounded-lg text-white font-bold my-font'>Quero saber mais!</button></a>
+              <a href="https://wa.me/5511968629919?text=Ol%C3%A1,%20vim%20pelo%20Google%20e%20quero%20saber%20mais%20sobre%20seus%20servi%C3%A7os!"><button className=' shadow-lg my-2 bg-lime-500 p-3 rounded-lg text-white font-bold my-font'>Quero saber mais!</button></a>
           </div>
 
           {/* <div className='z-10'>
@@ -30,12 +30,12 @@ const isDesktop = useMediaQuery({ minWidth: 1500 });
 
       {/* Modo Tablet */}
       {isTablet &&
-        <div className='grid grid-cols-2 bg-fundo bg-contain'>
+        <div className='grid grid-cols-2 bg-intro bg-cover'>
         
           <div className='ml-52 py-20 z-10 col-span-1'>
               <h1 className='text-2xl font-bold my-font'>Em cada flor, um pedacinho de amor. Surpreenda quem você ama com nossas opções.</h1>
               <p className='text-lg my-5 font-normal my-font'>Nas proximidades da Maternidade Santa Joana e Santa Maria. Diversos produtos para atender todas suas necessidades!.</p>
-              <a href=""><button className=' shadow-lg my-2 bg-lime-500 p-3 rounded-lg text-white font-bold my-font'>Quero saber mais!</button></a>
+              <a href="https://wa.me/5511968629919?text=Ol%C3%A1,%20vim%20pelo%20Google%20e%20quero%20saber%20mais%20sobre%20seus%20servi%C3%A7os!"><button className=' shadow-lg my-2 bg-lime-500 p-3 rounded-lg text-white font-bold my-font'>Quero saber mais!</button></a>
           </div>
 
           <div className='z-10'>
@@ -46,12 +46,12 @@ const isDesktop = useMediaQuery({ minWidth: 1500 });
 
       {/* Modo Desktop */}
       {isDesktop &&
-       <div className='grid grid-cols-2 bg-fundo bg-contain'>
+       <div className='grid grid-cols-2 bg-intro bg-cover'>
         
         <div className='ml-52 py-20 z-10 col-span-1'>
             <h1 className='text-2xl font-bold my-font'>Em cada flor, um pedacinho de amor. Surpreenda quem você ama com nossas opções.</h1>
             <p className='text-lg my-5 font-normal my-font'>Nas proximidades da Maternidade Santa Joana e Santa Maria. Diversos produtos para atender todas suas necessidades!.</p>
-            <a href=""><button className=' shadow-lg my-2 bg-lime-500 p-3 rounded-lg text-white font-bold my-font'>Quero saber mais!</button></a>
+            <a href="https://wa.me/5511968629919?text=Ol%C3%A1,%20vim%20pelo%20Google%20e%20quero%20saber%20mais%20sobre%20seus%20servi%C3%A7os!"><button className=' shadow-lg my-2 bg-lime-500 p-3 rounded-lg text-white font-bold my-font'>Quero saber mais!</button></a>
         </div>
 
         <div className='z-10'>

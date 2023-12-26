@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "fundo": "url('./assents/5226644.jpg')"
+        "fundo": "url('./assents/5226644.png')",
+        "intro": "url('./assents/wave.svg')"
       },
       listStyleImage: {
         "svgFlor": "url('./assents/ecoFlore.svg')",
