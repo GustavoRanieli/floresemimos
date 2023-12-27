@@ -24,7 +24,7 @@ const Linha = () => {
 
                 <div className='mt-10'>
                     <h1 className=' text-2xl text-white font-bold'>-2h</h1>
-                    <p className='text-white font-medium mt-2'>Seu  presente  vai ser entregue para<br></br> a peessoa amada.</p>
+                    <p className='text-white font-medium mt-2'>Seu  presente  vai ser entregue para<br></br>pessoa amada.</p>
                 </div>
             </div>
         }
@@ -65,7 +65,7 @@ const Linha = () => {
 
                 <div>
                 <h1 className=' text-4xl text-white font-bold'>-2h</h1>
-                    <p className='text-white font-medium mt-2'>Seu  presente  vai ser entregue para<br></br> a peessoa amada.</p>
+                    <p className='text-white font-medium mt-2'>Seu  presente  vai ser entregue para<br></br>pessoa amada.</p>
                 </div>
             </div>
         }
